@@ -1,4 +1,4 @@
-
+import travolta from '../../public/wondering-pulp-fiction.gif';
 
 const WorkInProgress = () => {
 
@@ -9,7 +9,7 @@ const WorkInProgress = () => {
 
     return (
         <div style={{ textAlign: "center" }}>
-            <img style={styles} src={'public/wondering-pulp-fiction.gif'}  alt={'work in progress'}/>
+            <img style={styles} src={travolta}  alt={'work in progress'}/>
         </div>
     );
 
