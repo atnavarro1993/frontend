@@ -1,4 +1,4 @@
-import travolta from '../../public/wondering-pulp-fiction.gif';
+import travolta from '../wondering-pulp-fiction.gif';
 
 const WorkInProgress = () => {
 
