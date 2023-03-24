@@ -1,9 +1,16 @@
+
+
 const WorkInProgress = () => {
 
+    const styles = {
+        display: "block",
+        margin: "auto"
+    }
+
     return (
-        <>
-            <img src={'src/assets/Lavori-in-corso.svg'}  alt={'work in progress'}/>
-        </>
+        <div style={{ textAlign: "center" }}>
+            <img style={styles} src={'src/assets/wondering-pulp-fiction.gif'}  alt={'work in progress'}/>
+        </div>
     );
 
 }
