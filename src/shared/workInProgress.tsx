@@ -9,7 +9,7 @@ const WorkInProgress = () => {
 
     return (
         <div style={{ textAlign: "center" }}>
-            <img style={styles} src={'src/assets/wondering-pulp-fiction.gif'}  alt={'work in progress'}/>
+            <img style={styles} src={'public/wondering-pulp-fiction.gif'}  alt={'work in progress'}/>
         </div>
     );
 
