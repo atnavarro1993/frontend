@@ -1,43 +1,19 @@
 export default function Home() {
     return (
         <>
-            <div id="sidebar">
-                <h1>React Router Contacts</h1>
-                <div>
-                    <form id="search-form" role="search">
-                        <input
-                            id="q"
-                            aria-label="Search contacts"
-                            placeholder="Search"
-                            type="search"
-                            name="q"
-                        />
-                        <div
-                            id="search-spinner"
-                            aria-hidden
-                            hidden={true}
-                        />
-                        <div
-                            className="sr-only"
-                            aria-live="polite"
-                        ></div>
-                    </form>
-                    <form method="post">
-                        <button type="submit">New</button>
-                    </form>
-                </div>
-                <nav>
-                    <ul>
-                        <li>
-                            <a href={`/contacts/1`}>Your Name</a>
-                        </li>
-                        <li>
-                            <a href={`/contacts/2`}>Your Friend</a>
-                        </li>
-                    </ul>
-                </nav>
+            <div>
+                <p>
+                    Hola, soy Ariel y me especializo en diseño web tanto de front-end como de back-end. Desde el 2019, he estado involucrado en el mundo del desarrollo web y he trabajado con diferentes tecnologías, incluyendo Gatsby, Wordpress, Angular y C#. Actualmente, estoy estudiando en la Universidad Tecnológica Nacional de la Regional Córdoba para seguir mejorando mis habilidades y estar al tanto de las últimas tendencias en el diseño web.
+                </p>
+
+                <p>
+                    Me considero una persona capaz y autosuficiente, pero también sé que trabajar en equipo puede llevar a resultados aún mejores. Soy muy receptivo a las críticas y sugerencias, ya que siempre estoy buscando formas de mejorar y aprender más. Aprendí a lidiar con las frustraciones que vienen con el desarrollo web, como los errores lógicos y de sintaxis, y los veo como oportunidades para mejorar mis habilidades.
+                </p>
+
+                <p>
+                    Si necesitas ayuda con el diseño web, ya sea de front-end o back-end, no dudes en contactarme. Estoy aquí para ayudarte a lograr tus objetivos en línea.
+                </p>
             </div>
-            <div id="detail"></div>
         </>
     );
 }

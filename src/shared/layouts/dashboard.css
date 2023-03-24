@@ -1,0 +1,14 @@
+li {
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.navBar{
+    display: flex;
+    margin-bottom: .5em;
+    justify-content: space-around;
+}
+.drawer{
+    padding: 0 25px;
+}

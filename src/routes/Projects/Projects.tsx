@@ -1,7 +1,9 @@
+import WorkInProgress from "../../shared/workInProgress";
+
 const Projects = () =>{
     return (
         <>
-        Under construction
+        <WorkInProgress/>
         </>
     );
 }
